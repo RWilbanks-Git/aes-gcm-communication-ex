@@ -9,7 +9,7 @@
 #          This is done by using AES-GCM for encryption with a
 #          key that is already shared between client and server.
 #          A piece of plaintext is encrypted (by the client)
-#          (using an IV.
+#          using an IV.
 #          Lastly, both the ciphertext and IV are sent to the
 #          server.
 #
@@ -47,6 +47,7 @@ with socket.socket(socket.AF_INET, socket.SOCK_STREAM) as s:
 
     print("Client:)     The data was successfully sent!")
     #^Confirm that data was sent
+
 
 
 
