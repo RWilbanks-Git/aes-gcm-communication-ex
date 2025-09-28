@@ -2,6 +2,10 @@
 A simple example of AES-GCM encryption over TCP sockets using client-server communication.
 
 
+
+
+
+
 # Instructions to Run
 1.) Install cryptography package using:  pip install cryptography
 
