@@ -1,5 +1,5 @@
 # General Description
-A simple Python example of AES-GCM encryption over TCP sockets using client-server communication.
+A simple example of AES-GCM encryption over TCP sockets using client-server communication.
 
 
 
