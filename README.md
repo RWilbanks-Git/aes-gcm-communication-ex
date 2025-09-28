@@ -1,5 +1,7 @@
-# aes-gcm-communication-ex
+# Description
 A simple example of AES-GCM encryption over TCP sockets using client-server communication.
+
+
 
 ### Key Exchange and Encryption ###
 
