@@ -2,7 +2,6 @@
 # Name: Rachel Wilbanks
 # Language: Python
 # Program Name: client.py
-# Date: 6/15/2025
 #
 # Purpose: The purpose of this program is meant to send an
 #          encrypted message, over TCP connection, to a server.
@@ -17,7 +16,7 @@
 #          ciphertext (made from plaintext) to a/the server.
 #
 
-import socket       #Socket handles the TCP connection (I believe)
+import socket       #Socket handles the TCP connection
 import os           #Used to generate random bytes (IV)
 
 from cryptography.hazmat.primitives.ciphers.aead import AESGCM
@@ -47,6 +46,7 @@ with socket.socket(socket.AF_INET, socket.SOCK_STREAM) as s:
 
     print("Client:)     The data was successfully sent!")
     #^Confirm that data was sent
+
 
 
 
